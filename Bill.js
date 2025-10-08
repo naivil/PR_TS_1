@@ -1,0 +1,14 @@
+var productName = "Notebook";
+var price = 100;
+var quantity = 5;
+var discountPercent = 10;
+var totalAmount = price * quantity;
+var discountAmount = (totalAmount * discountPercent) / 100;
+var finalAmount = totalAmount - discountAmount;
+console.log("======BILL DETAILS======");
+console.log("Product Name:", productName);
+console.log("Price per item:" + price);
+console.log("Quantity:", quantity);
+console.log("Total Amount:" + totalAmount);
+console.log("Discount (" + discountPercent + "%):" + discountAmount);
+console.log("Final Bill Amount:" + finalAmount);

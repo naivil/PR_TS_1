@@ -1,0 +1,14 @@
+var empName = "Dhaval";
+var basicSalary = 1000;
+var hra = 0.2 * basicSalary;
+var da = 0.1 * basicSalary;
+var pf = 0.12 * basicSalary;
+var grossSalary = basicSalary + hra + da;
+var netSalary = grossSalary - pf;
+console.log("Employee Name:", empName);
+console.log("Basic Salary:", basicSalary);
+console.log("HRA:", hra);
+console.log("DA:", da);
+console.log("PF:", pf);
+console.log("Gross Salary:", grossSalary);
+console.log("Net Salary:", netSalary);
